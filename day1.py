@@ -49,7 +49,7 @@
 from helper_methods import *
 
 
-input = open("day1-input.txt").readlines()
+input = open("input/day1-actual.txt").readlines()
 
 calorieEntries = list(map(lambda x: x.strip("\n"), input))
 
