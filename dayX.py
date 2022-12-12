@@ -1,20 +1,27 @@
 DAY = 0
 
-def input(example = True):
+
+def input(example=True):
+
     if example:
-        return open(f"input/day{DAY}-example.txt").readlines
+        filename = f"input/day{DAY}-example.txt"
     else:
-        return open(f"input/day{DAY}-actual.txt").readlines
+        filename = f"input/day{DAY}-actual.txt"
+
+    return [line.strip() for line in open(filename).readlines()]
+
 
 def part_one():
     result = 0
 
-    return result   
+    return result
+
 
 def part_two():
     result = 0
 
     return result
+
 
 print(f"Day {DAY}:\n")
 
