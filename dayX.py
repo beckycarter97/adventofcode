@@ -11,13 +11,13 @@ def input(example=True):
     return [line.strip() for line in open(filename).readlines()]
 
 
-def part_one():
+def part_one(input):
     result = 0
 
     return result
 
 
-def part_two():
+def part_two(input):
     result = 0
 
     return result
